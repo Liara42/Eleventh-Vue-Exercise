@@ -1,7 +1,9 @@
 <template>
   <li>
     <h2>{{ contact.name }}</h2>
-    <button @click="toggleDetails"{{visibleDetails}} Details</button>
+    <button @click="toggleDetails">
+      {{ visibleDetails ? "Hide" : "Show" }} Details
+    </button>
     <ul v-if="visibleDetails">
       <li>
         <strong>Phone: </strong>
