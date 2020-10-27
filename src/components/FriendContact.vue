@@ -24,12 +24,6 @@ export default {
   data() {
     return {
       visibleDetails: false,
-      contact: {
-        id: "manuel",
-        name: "Manuel Lorenz",
-        phone: "0123 45678 90",
-        email: "manuel@localhost.com",
-      },
       friendIsFavorite: this.isFavorite,
     };
   },
